@@ -1,0 +1,44 @@
+body {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+    ),
+  url(http://images.tsn.ca/images/stories/2015/6/5/airbudgoldenreceiver_photo_01_49100.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  text-align: top;
+  color: gold;
+  text-align: center;
+  text-shadow: 0 2px 0 blue;
+  letter-spacing: 2px;  
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
+  background-size: wrap-text;
+  padding: 5px; 
+  margin-top: 0px;
+}
+
+ul{
+  width: 25%;
+  margin: auto;
+  color: gold;
+  text-shadow: 0 2px 0 black;
+}
+
+li{
+  font-size:20px;
+  margin: 0;
+  padding: 0px 0px 30px 40px;
+  list-style: none;
+  background-image: url(https://static-cdn.jtvnw.net/emoticons/v1/120643/3.0);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 30px;
+}
