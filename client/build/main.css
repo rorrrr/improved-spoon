@@ -7,7 +7,7 @@ body {
   url(http://images.tsn.ca/images/stories/2015/6/5/airbudgoldenreceiver_photo_01_49100.jpg);
   background-size: cover;
   background-attachment: fixed;
-  border-right-color: gold;
+/*  border-right-color: gold;
   border-right-width:55px;
   border-right-style:solid;
   border-left-color: gold;
@@ -18,8 +18,26 @@ body {
   border-bottom-style:solid;
   border-top-color: gold;
   border-top-width:25px;
-  border-top-style:solid;
+  border-top-style:solid;*/
 }
+
+#top, #bottom, #left, #right {
+  background: palegoldenrod;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
 
 h1 {
   font-size: 40px;
@@ -33,7 +51,7 @@ h1 {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.3);
   background-size: wrap-text;
-  padding: 5px; 
+ /* padding: 5px; */
   margin-top: 0px;
 }
 
@@ -61,9 +79,12 @@ li{
 }
 
 img{
-  padding: 0px 0px 50px 0px;
+  padding: 0px 0px 0px 0px;
   max-width:70%;
   max-height:50%;
   display: block;
   margin: auto;
+  border-style: solid;
+  border-width: 24px 21px 23px 19px;
+  border-image: url(http://vignette2.wikia.nocookie.net/thefutureofeuropes/images/0/05/Doge.png/revision/latest?cb=20160810120041) 306 0 repeat;
 }
