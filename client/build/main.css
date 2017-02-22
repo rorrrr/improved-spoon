@@ -7,6 +7,18 @@ body {
   url(http://images.tsn.ca/images/stories/2015/6/5/airbudgoldenreceiver_photo_01_49100.jpg);
   background-size: cover;
   background-attachment: fixed;
+  border-right-color: gold;
+  border-right-width:55px;
+  border-right-style:solid;
+  border-left-color: gold;
+  border-left-width:55px;
+  border-left-style:solid;
+  border-bottom-color: gold;
+  border-bottom-width:55px;
+  border-bottom-style:solid;
+  border-top-color: gold;
+  border-top-width:25px;
+  border-top-style:solid;
 }
 
 h1 {
@@ -26,6 +38,9 @@ h1 {
 }
 
 ul{
+  display: block;
+  margin: auto;
+
   width: 25%;
   margin: auto;
   color: gold;
@@ -33,12 +48,22 @@ ul{
 }
 
 li{
-  font-size:20px;
+  display: block;
+  margin: auto;
+  font-size:30px;
   margin: 0;
-  padding: 0px 0px 30px 40px;
+  padding: 0px 0px 0px 45px;
   list-style: none;
   background-image: url(https://static-cdn.jtvnw.net/emoticons/v1/120643/3.0);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 30px;
+}
+
+img{
+  padding: 0px 0px 50px 0px;
+  max-width:70%;
+  max-height:50%;
+  display: block;
+  margin: auto;
 }

@@ -25,10 +25,16 @@ UI.prototype = {
 
     for (var film of films) {
       var li = document.createElement('li');
-      this.appendText(li, film.title, 'TITLE: ');
+      var img = document.createElement('img')
+
+
+      this.appendText(li, film.title, '');
       this.appendText(li, film.sport, 'SPORT: ');
+      img.src = film.image;
+
       
       container.appendChild(li);
+      container.appendChild(img)
     }
   }
 
